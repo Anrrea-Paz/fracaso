@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>THE WHITE HOUSE — Prestige Home Cleaning</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="nav-inner container">
+    <div class="brand"><a href="index.html"><img src="assets/logo.png" alt="logo"></a><div class="name">THE WHITE HOUSE</div></div>
+    <nav class="nav-links"><a href="index.html">Home</a><a href="#carousel">What we do</a><a href="#services">Plans</a><a href="#testimonials">Testimonials</a><a href="#contact">Contact</a></nav>
+  </div>
+</header>
+
+<main class="hero" id="home">
+  <div class="hero-overlay"></div>
+  <div class="gold-sparkle" aria-hidden="true"></div>
+  <div class="hero-inner container">
+    <img src="assets/logo.png" class="logo-centered" alt="THE WHITE HOUSE logo">
+    <h1>Your time is gold, we shine and uphold</h1>
+    <p class="lead">Prestige home cleaning focused on attention to detail, discretion and lasting results.</p>
+    <div class="cta-row">
+      <a class="btn-primary" href="plans/basic.html">Book Now</a>
+      <a class="btn-ghost" href="#services">See Plans & Pricing</a>
+    </div>
+  </div>
+</main>
+
+<section id="carousel" class="carousel-wrap">
+  <div class="carousel container">
+    <div class="slides" id="slides">
+      <div class="slide"><img src="assets/service1.jpg" alt=""><div class="slide-content"><h3>What we do</h3><p>We specialize in luxury home cleaning—meticulous dust removal, floor care and finishing touches.</p><div class="tagline">Transforming spaces into reflections of luxury.</div></div></div>
+      <div class="slide"><img src="assets/service2.jpg" alt=""><div class="slide-content"><h3>Why we do it</h3><p>A clean home supports wellbeing, peace of mind and confidence.</p><div class="tagline">Because every home deserves to shine.</div></div></div>
+      <div class="slide"><img src="assets/service3.jpg" alt=""><div class="slide-content"><h3>How we do it</h3><p>Standardized checklists, trained teams, and documented quality control.</p><div class="tagline">With precision, passion, and perfection.</div></div></div>
+    </div>
+    <div class="dots" id="dots"><div class="dot active"></div><div class="dot"></div><div class="dot"></div></div>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <div class="container">
+    <h2 class="section-title">Home Cleaning Plans</h2>
+    <p style="color:var(--muted);text-align:center;max-width:900px;margin:0 auto 18px">Choose a plan that fits your life. Click a plan to see full details, images and booking options.</p>
+    <div class="plans">
+      <div class="plan"><img src="assets/plan-basic.jpg" alt=""><div class="price">$49 / visit</div><h4>Essential Clean</h4><p>Perfect for regular upkeep and busy homes.</p><a class="btn" href="plans/basic.html">View details</a></div>
+      <div class="plan"><img src="assets/plan-premium.jpg" alt=""><div class="price">$79 / visit</div><h4>Premium Clean</h4><p>Deep cleaning with attention to hidden areas.</p><a class="btn" href="plans/premium.html">View details</a></div>
+      <div class="plan"><img src="assets/plan-elite.jpg" alt=""><div class="price">$119 / visit</div><h4>Elite Clean</h4><p>Luxury finishing touches and priority scheduling.</p><a class="btn" href="plans/elite.html">View details</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="why" class="container" style="padding:48px 0">
+  <h2 class="section-title">Why Choose THE WHITE HOUSE</h2>
+  <div class="why-grid">
+    <div class="why"><h4>Standardized Process</h4><p>Inspection → Clean → Quality control. Repeatable premium results.</p></div>
+    <div class="why"><h4>Trained Teams</h4><p>Professionals trained on delicate surfaces and luxury finishes.</p></div>
+    <div class="why"><h4>Transparent Pricing</h4><p>Clear plans so you know exactly what to expect.</p></div>
+    <div class="why"><h4>Trusted & Insured</h4><p>Fully insured services and documented customer sign-off.</p></div>
+  </div>
+</section>
+
+<section id="testimonials" class="testimonials">
+  <div class="container">
+    <h2 class="section-title">Client Testimonials</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial"><p class="quote">“Meticulous, discreet and professional.”</p><div class="who">— Mariana R.</div></div>
+      <div class="testimonial"><p class="quote">“Prestige Clean transformed our home.”</p><div class="who">— Carlos D.</div></div>
+      <div class="testimonial"><p class="quote">“Reliable and consistent every visit.”</p><div class="who">— Sofia L.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h3>Experience the gold standard of home cleaning.</h3>
+    <p>Priority booking and premium teams ready to serve your home.</p>
+    <div style="margin-top:16px"><a class="btn-primary" href="plans/premium.html">GET A QUOTE</a></div>
+  </div>
+</section>
+
+<section id="contact" style="padding:48px 0">
+  <div class="container">
+    <h2 class="section-title">Contact & Request</h2>
+    <div class="contact-grid">
+      <div>
+        <p style="color:var(--muted)">Fill the form for a tailored quote — attach photos for faster estimates.</p>
+        <form action="#" method="POST" style="display:grid;gap:10px">
+          <input name="name" placeholder="Full name" required>
+          <input name="email" type="email" placeholder="Email" required>
+          <input name="phone" placeholder="Phone (optional)">
+          <select name="plan"><option value="">Select plan</option><option>Essential — $49</option><option>Premium — $79</option><option>Elite — $119</option></select>
+          <textarea name="details" rows="5" placeholder="Brief description / address"></textarea>
+          <button type="submit" class="btn-primary">SEND REQUEST</button>
+        </form>
+      </div>
+      <aside class="contact-card">
+        <div style="font-weight:700;color:var(--gold);margin-bottom:8px">Contact Info</div>
+        <div style="color:var(--muted);line-height:1.6"><div>Phone: +1 555 123 4567</div><div>Email: hello@thewhitehouse.example</div></div>
+        <div style="margin-top:16px"><div style="font-size:13px;color:var(--muted);margin-bottom:8px">Follow us</div><div class="socials"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="TikTok">TT</a></div></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer><div class="footer-inner container"><div class="footer-logo"><img src="assets/logo.png" alt="logo"><div style="color:var(--muted);font-size:13px">THE WHITE HOUSE</div></div><div style="text-align:right"><div style="color:var(--muted);font-size:14px;margin-bottom:8px">© 2025 THE WHITE HOUSE. All rights reserved.</div></div></div></footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
